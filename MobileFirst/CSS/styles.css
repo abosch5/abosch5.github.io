@@ -227,7 +227,7 @@ footer{
 		font-size: 1.5rem
 	}
 	.map{
-		background-image: url("../images/mapmobile.png");
+		background-image: url("../images/map.jpg") ;
 		width: 100%;
 		height: 23.188rem;
 		background-repeat: no-repeat;
