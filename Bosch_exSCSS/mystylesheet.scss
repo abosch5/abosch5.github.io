@@ -7,7 +7,7 @@ $mycolor4: rgba(92, 201, 245, 1);
 
 %message-shared {
     color: aliceblue;
-    background-color: rgba(102, 56, 240, 1);
+    background-color: $mycolor3;
     padding: 9px 14px;
     font-size: 16px;
     font-weight: 600;
@@ -24,6 +24,7 @@ $mycolor4: rgba(92, 201, 245, 1);
     font-family: Poppins;
     padding: 20px;
     margin: 500px auto;
+    order: 1;
 }
 
 .box h3{
@@ -59,7 +60,7 @@ button{
     margin: auto;
     font-family: Poppins;
     position: fixed;
-    top: 0; bottom: 0; left: 150px;
+    top: 0; bottom: 0; left: 200px;
     background-color: aliceblue;
 }
 
