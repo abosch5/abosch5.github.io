@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400&display=swap');
+
+
+body{
+    background-color: #292929;
+    margin:0;
+	padding:0;
+}
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 100%;
+}
+@mixin button {
+        text-decoration: none;
+        font-family: Raleway;
+        font-size: 0.813rem;
+        color: white;
+        padding: 0.313rem 0.5rem;
+        border: 0.063rem white solid;
+        text-transform: capitalize;
+        
+}
+@mixin hover{
+    background-color: white;
+    color: black;
+
+}
+@mixin Bitter{
+    font-family: Bitter;
+    color: white;
+}
+@mixin Raleway{
+    font-family: Raleway;
+        color: white;
+        
+}
+@mixin background{
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+
+}
+/*Mobile Nav*/
+ footer, .desktopnav{
+    display: none;
+}
+ul, .dropdown{
+    display: flex;
+}
+nav{
+    display: flex;
+}
+nav{
+    justify-content: space-around;
+    padding: .938rem 0;
+}
+nav img{
+    margin-top: .625rem;
+}
+nav h3 a{
+    @include Bitter;
+    font-size: 1rem;
+    font-weight: 100;
+    text-decoration: none;
+}
+.buttons a{
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 13px;
+    color: black;
+    padding: 5px 8px;
+    background-color: white;
+    font-weight: 700;
+ }
+ .buttons a:hover{
+    background-color: black;
+    color: white;
+}
+/*body*/
+.reserve2{
+    background-image: url(../images/mobile.png);
+    @include background;
+    height: 416px;
+    text-align: center;
+}
+.reserve2 h1{
+    @include Bitter;
+    font-weight: 300;
+    margin-top: 0;
+    padding-top: 3.75rem;
+}
+.reserve2 p{
+    @include Raleway;
+    font-weight: 200;
+}
+.menu{
+    background-color: #292929;
+    width: 20.813rem;
+    margin: auto;
+}
+.menu li{
+    list-style: none;
+    padding: .625rem 0px;
+}
+.menu ul{
+    padding-left: 1.25rem;
+}
+.menu a{
+    @include Raleway;
+    font-size: .875rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+.menu a:hover{
+    @include hover;
+}
+.button a{
+    border: 0.063rem white solid;
+    padding: .625rem .75rem;
+}
+.dropdown{
+    margin-right: 1.25rem;
+}
+.ig{
+    text-align: center;
+    margin-top: 3.125rem;
+}
+
+@media (min-width: 900px) /* for laptops */{
+    nav, .ig{
+        display: none;
+    }
+    .desktopnav, .footernav{
+        display: contents;
+    }
+    .desktopnav, ul, .nav, .footer, .form, .footernav, .contact, .phone, .location{
+        display: flex;
+    }
+    /*nav*/
+    .desktopnav{
+        justify-content: space-between;
+        width: 79%;
+        margin: 1.563rem auto;
+        
+    }
+    .desktopnav a{
+        text-decoration: none;
+        font-family: Bitter;
+        font-weight: 100;
+        color: white;
+    }
+    .desktopnav a:hover{
+        text-decoration: underline;
+    }
+    .nav p{
+        color: #141414;
+        }
+    .desktopnav li{
+        list-style: none;
+        padding-left: 1.563rem;
+        font-size: .875rem;
+        
+    }
+    .reserve{
+        margin-top: .875rem;
+        margin-left: 1.25rem;
+    }
+    .reserve a{
+        padding: .313rem .75rem;
+        background-color: white;
+        color: #141414;
+        font-size: .875rem;
+        font-family: Raleway;
+        font-weight: 500;
+    }
+    .reserve a:hover{
+        background-color: #141414;
+        color: white;
+    }
+    /*body*/
+    .reserve2{
+        background-image: url(../images/reserve.png);
+        height: 40.625rem;
+        
+    }
+    .reserve2 h1{
+        padding-top: 9.375rem;
+    }
+    /*footer*/
+    .ig{
+        display: none;
+    }
+    .address{
+        display: none;
+    }
+    footer{
+        display: contents;
+    }
+    .footer{
+        justify-content: space-between;
+        width: 79%;
+        margin: 1.563rem auto;
+    }
+    .left p{
+        font-family: Bitter;
+        color: white;
+        font-weight: 300;
+        margin-bottom: .313rem;
+        font-size: .875rem;
+    }
+    .email{
+        background-color: white;
+        padding: .313rem;
+        width: 15.625rem;
+        margin-right: .625rem;
+    }
+    .form a{
+        text-decoration: none;
+        font-family: Raleway;
+        color: white;
+        border: .063rem white solid;
+        padding: 0.313rem 0.5rem;
+        font-size: .625rem;
+    }
+    .form a:hover{
+        background-color: white;
+        color: #141414;
+    }
+    .footernav a{
+        font-family: Bitter;
+        color: white;
+        font-size: .75rem;
+        text-decoration: none;
+    }
+    .footernav a:hover{
+        text-decoration: underline;
+    }
+    .footernav li{
+        list-style: none;
+        padding-left: .625rem;
+    }
+    .footernav, .contact {
+        justify-content: flex-end;
+    }
+    .contact p{
+        font-family: Raleway;
+        color: white;
+        font-size: .625rem;
+    }
+    .phone img{
+        width: 1.188rem;
+        height: 1.188rem;
+        margin-right: .313rem;
+        margin-top: .313rem;
+    }
+    .location img{
+        width: 1.188rem;
+        height: 1.188rem;
+        margin-right: .313rem;
+        margin-top: .313rem;
+    }
+    .location{
+        padding-left: .625rem;
+    }
+}
+@media (min-width: 1200px) /* for laptops */{
+    .reserve2{
+        background-image: url(../images/reserve.png);
+        background-repeat: no-repeat;
+        height: 36.25rem;
+        background-size: cover;
+        
+    }
+    .reserve2{
+        height: 71.875rem;
+    }
+    .reserve2 h1{
+        font-size: 2.813rem;
+        margin-bottom: 0px;
+        padding-top: 21.875rem;
+    }
+    .menu{
+        background-color: #292929;
+        width: 33.313rem;
+        margin: auto;
+    }
+    .menu li{
+        list-style: none;
+        padding: .625rem 0px;
+    }
+    .menu ul{
+        padding-left: 2.5rem;
+    }
+    .menu a{
+        font-family: Raleway;
+        color: white;
+        font-size: 1.125rem;
+        font-weight: 300;
+        text-decoration: none;
+    }
+    .dropdown{
+        margin-right: 3.125rem;
+    }
+    .button a{
+        border: .063rem white solid;
+        padding: .625rem 2.188rem;
+    }
+}

@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400&display=swap');
+
+
+body{
+    background-color: #292929;
+    margin:0;
+	padding:0;
+}
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 100%;
+}
+@mixin button {
+        text-decoration: none;
+        font-family: Raleway;
+        font-size: 0.813rem;
+        color: white;
+        padding: 0.313rem 0.5rem;
+        border: 0.063rem white solid;
+        text-transform: capitalize;
+        
+}
+@mixin hover{
+    background-color: white;
+    color: black;
+
+}
+@mixin Bitter{
+    font-family: Bitter;
+    color: white;
+}
+@mixin Raleway{
+    font-family: Raleway;
+        color: white;
+}
+@mixin background{
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+
+}
+
+/*Mobile Nav*/
+.desktop, footer, .desktopnav{
+    display: none;
+}
+nav{
+    display: flex;
+}
+nav{
+    justify-content: space-around;
+    padding: .938rem 0;
+}
+nav img{
+    margin-top: .625rem;
+}
+nav h3 a{
+    font-family: Bitter;
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+    text-decoration: none;
+}
+.buttons a{
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: .813rem;
+    color: black;
+    padding: .313rem .5rem;
+    background-color: white;
+    font-weight: 700;
+ }
+ .buttons a:hover{
+    background-color: black;
+    color: white;
+}
+/*body*/
+.sec1{
+    background-image: url(../images/mobile1.png);
+    height: 418px;
+    @include background;
+    
+}
+.container1{
+    text-align: center;
+    color: white;
+    padding: 85px 30px 0 30px;
+}
+.container1 h1{
+    font-family: Bitter;
+    font-weight: 300;
+    margin-top: 0px;
+}
+.container1 p{
+    font-family: Raleway;
+    font-weight: 100;
+    line-height: 1.563rem;
+}
+.button a{
+   @include button;
+}
+.button a:hover{
+    @include hover;
+}
+.sec2 p{
+    @include Bitter;
+    font-weight: 100;
+    font-size: .75rem;
+    text-align: center;
+}
+.list{
+    text-align: center;
+}
+.list a{
+    display: list-item;
+    text-decoration: none;
+    font-family: Bitter;
+    color: white;
+    font-size: .875rem;
+    border-top:  .125rem rgb(27, 27, 27) solid;
+    border-bottom: .125rem rgb(27, 27, 27) solid;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+}
+.list a:hover{
+    @include hover;
+}
+.sec3{
+    background-image: url(../images/mobile2.png);
+    height: 982px;
+    text-align: center;
+    color: white;
+    @include button;
+}
+.sec3 h2{
+    @include Bitter;
+    font-weight: 200;
+    text-decoration: underline;
+    padding-top: 6.25rem;
+}
+.items h4{
+     font-family: Raleway;
+     margin-bottom: 0;
+    }
+.items p{
+    font-family: Bitter;
+    font-weight: 100;
+    margin-top: 0;
+}  
+.ig{
+    margin: 1.875rem 0;
+    text-align: center;
+}  
+@media (min-width:900px) /* for desktop */{
+     footer, .desktopnav{
+        display: contents;
+    }
+    nav, .ig{
+        display: none;
+    }
+    .desktopnav, ul, .nav, .footer, .form, .footernav, .contact, .phone, .location{
+        display: flex;
+    }
+    /*nav*/
+    .desktopnav{
+        justify-content: space-between;
+        width: 79%;
+        margin: 1.563rem auto;
+       
+    }
+    .desktopnav a{
+        text-decoration: none;
+        @include Bitter;
+        font-weight: 100;
+        
+    }
+    .desktopnav a:hover{
+        text-decoration: underline;
+    }
+    .nav p{
+        color: #141414;
+        }
+    .desktopnav li{
+        list-style: none;
+        padding-left: 1.563rem;
+        font-size: .875rem;
+        
+    }
+    .reserve{
+        margin-top: .875rem;
+        margin-left: 1.25rem;
+    }
+    .reserve a{
+        padding: .313rem .75rem;
+        background-color: white;
+        color: #141414;
+        font-size: .875rem;
+        font-family: Raleway;
+        font-weight: 500;
+    }
+    .reserve a:hover{
+        background-color: #141414;
+        color: white;
+    }
+    /*body*/
+    .sec1{
+        background-image: url(../images/menu1.png);
+        @include background;
+        height: 26.125rem;
+        
+    }
+    .container1{
+        text-align: center;
+        color: white;
+        padding: 5.313rem 12.5rem 0 12.5rem;
+    }
+    .container1 h1{
+        font-family: Bitter;
+        font-weight: 500;
+        margin-top: 0px;
+    }
+    .container1 p{
+        font-family: Raleway;
+        font-weight: 300;
+        line-height: 1.563rem;
+    }
+    .sec2 p{
+        font-size: 1rem;
+    }
+    .list a{
+        font-size: 1rem;
+    }
+    .sec3{
+        background-image: url(../images/menu2.png);
+    }
+    .sec3 h2{
+        font-size: 2rem;
+        font-weight: 500;
+        padding-top: 9.375rem;
+    }
+    .items h4{
+        font-size: 1.25rem;
+       }
+    /*footer*/
+    .ig{
+        display: none;
+    }
+    .address{
+        display: none;
+    }
+    footer{
+        display: contents;
+    }
+    .footer{
+        justify-content: space-between;
+        width: 79%;
+        margin: 1.563rem auto;
+        
+    }
+    .left p{
+        font-family: Bitter;
+        color: white;
+        font-weight: 300;
+        margin-bottom: .313rem;
+        font-size: .875rem;
+    }
+    .email{
+        background-color: white;
+        padding: .313rem;
+        width: 15.625rem;
+        margin-right: .625rem;
+    }
+    .form a{
+        text-decoration: none;
+        @include Raleway;
+        border: .063rem white solid;
+        padding: 0.313rem 0.5rem;
+        font-size: .625rem;
+    }
+    .form a:hover{
+        @include hover;
+    }
+    .footernav a{
+        font-family: Bitter;
+        color: white;
+        font-size: .75rem;
+        text-decoration: none;
+    }
+    .footernav a:hover{
+        text-decoration: underline;
+    }
+    .footernav li{
+        list-style: none;
+        padding-left: .625rem;
+    }
+    .footernav, .contact {
+        justify-content: flex-end;
+    }
+    .contact p{
+        font-family: Raleway;
+        color: white;
+        font-size: .625rem;
+    }
+    .phone img{
+        width: 1.188rem;
+        height: 1.188rem;
+        margin-right: .313rem;
+        margin-top: .313rem;
+    }
+    .location img{
+        width: 1.188rem;
+        height: 1.188rem;
+        margin-right: 0.313rem;
+        margin-top: .313rem;
+    }
+    .location{
+        padding-left: .625rem;
+    }
+}

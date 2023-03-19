@@ -1,0 +1,658 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400&display=swap");
+body {
+  background-color: #292929;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+/*Mobile*/
+.desktopnav {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+nav {
+  width: 92%;
+  max-width: 48.125rem;
+  margin: auto;
+}
+
+nav, .address {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  padding: 0.938rem 0;
+}
+
+nav img {
+  margin-top: 0.813rem;
+}
+
+nav h3 a {
+  font-family: Bitter;
+  color: white;
+  font-size: 1rem;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.buttons {
+  margin-top: 1.25rem;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 0.813rem;
+  color: black;
+  padding: 0.313rem 0.5rem;
+  background-color: white;
+  font-weight: 700;
+}
+
+.buttons a:hover {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  padding-top: 2.5rem;
+  margin-left: 2.5rem;
+  padding-bottom: 0.625rem;
+}
+
+.sec1 {
+  background-image: url(../images/mobile1.png);
+  height: 32.188rem;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.sec1 h1 {
+  font-family: Bitter;
+  color: white;
+  font-weight: 300;
+  font-size: 2.188rem;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+.sec1 h2 {
+  font-family: Bitter;
+  font-size: 1.563rem;
+  color: white;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+.sec1 a {
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 0.813rem;
+  color: white;
+  padding: 0.313rem 0.5rem;
+  border: 0.063rem white solid;
+  text-transform: capitalize;
+  margin-left: 2.5rem;
+}
+
+.sec1 a:hover {
+  background-color: white;
+  color: black;
+}
+
+.container2 {
+  padding-top: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.sec2 {
+  background-image: url(../images/mobile2.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 29.625rem;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.sec2 h2 {
+  font-family: Bitter;
+  color: white;
+  font-weight: 300;
+  margin-top: 0;
+  font-size: 1.25rem;
+  text-align: right;
+  text-transform: capitalize;
+}
+.sec2 h3 {
+  font-family: Raleway;
+  color: white;
+  font-weight: 300;
+  font-size: 1.125rem;
+  text-align: right;
+}
+.sec2 a {
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 0.813rem;
+  color: white;
+  padding: 0.313rem 0.5rem;
+  border: 0.063rem white solid;
+  text-transform: capitalize;
+  margin-left: 275px;
+}
+.sec2 h4 {
+  font-family: Raleway;
+  color: white;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  margin-top: 17.188rem;
+}
+
+.sec2 a:hover {
+  background-color: white;
+  color: black;
+}
+
+.container3 {
+  padding-top: 2.5rem;
+  margin-left: 2.5rem;
+  padding-bottom: 0.625rem;
+}
+
+.sec3 {
+  background-image: url(../images/mobile3.png);
+  height: 24.813rem;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.sec3 h2 {
+  font-family: Bitter;
+  color: white;
+  font-weight: 300;
+  margin-top: 0;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.sec3 h3 {
+  font-family: Raleway;
+  color: white;
+  font-weight: 300;
+  font-weight: 300;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.sec3 a {
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 0.813rem;
+  color: white;
+  padding: 0.313rem 0.5rem;
+  border: 0.063rem white solid;
+  text-transform: capitalize;
+  margin-left: 40px;
+}
+.sec3 p {
+  margin-top: 0px;
+}
+
+.sec3 a:hover {
+  background-color: white;
+  color: #141414;
+}
+
+.address {
+  justify-content: center;
+  background-color: #141414;
+}
+
+.address img {
+  width: 20px;
+  height: 20px;
+  margin-top: 13px;
+  margin-right: 10px;
+}
+.address p {
+  font-family: Raleway;
+  color: white;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.ig {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.footer {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .footer {
+    display: none;
+  }
+  .sec1 {
+    width: 100%;
+    height: 43.75rem;
+    background-size: cover;
+  }
+  .sec1 h1 {
+    font-size: 3.125rem;
+  }
+  .sec1 a {
+    font-size: 1rem;
+    padding: 0.5rem 0.625rem;
+  }
+  .sec2 {
+    height: 37.5rem;
+    background-size: cover;
+  }
+  .sec2 h2 {
+    font-size: 1.375rem;
+  }
+  .sec2 h3 {
+    font-size: 1.438rem;
+  }
+  .sec2 a {
+    font-size: 0.813rem;
+    padding: 0.313rem 0.5rem;
+    margin-left: 28.75rem;
+  }
+  .sec2 h4 {
+    margin-top: 22.813rem;
+  }
+  .sec3 {
+    height: 31.25rem;
+  }
+}
+@media (min-width: 768px) {
+  .footer {
+    display: none;
+  }
+  .container {
+    padding-top: 100px;
+    margin-left: 80px;
+  }
+  .sec1 {
+    width: 100%;
+    height: 55.625rem;
+    background-size: cover;
+  }
+  .sec1 h1 {
+    font-size: 4.063rem;
+  }
+  .sec1 a {
+    font-size: 1.25rem;
+    padding: 0.625rem 0.75rem;
+    margin-left: 5rem;
+  }
+  .container2 {
+    padding-top: 5.25rem;
+    margin-right: 5rem;
+  }
+  .sec2 {
+    height: 43.75rem;
+    background-size: cover;
+  }
+  .sec2 h2 {
+    font-size: 2.25rem;
+  }
+  .sec2 h3 {
+    font-size: 2rem;
+  }
+  .sec2 a {
+    font-size: 1.25rem;
+    padding: 0.625rem 0.75rem;
+    margin-left: 35.938rem;
+  }
+  .container3 {
+    padding-top: 6.25rem;
+    margin-left: 5rem;
+  }
+  .sec3 {
+    height: 42.5rem;
+  }
+  .sec3 h2 {
+    font-size: 2.625rem;
+    font-weight: 500;
+  }
+  .sec3 h3 {
+    font-size: 1.75rem;
+    margin-bottom: 0.625rem;
+  }
+  .sec3 a {
+    font-size: 1.25rem;
+    padding: 0.625rem 0.75rem;
+    margin-left: 5rem;
+  }
+}
+@media (min-width: 992px) {
+  .desktopnav {
+    display: contents;
+  }
+  nav {
+    display: none;
+  }
+  .desktopnav, ul, .nav, .footer, .form, .footernav, .contact, .phone, .location {
+    display: flex;
+  }
+  /*Nav*/
+  .desktopnav {
+    justify-content: space-between;
+    width: 79%;
+    margin: 25px auto;
+    max-width: 992;
+  }
+  .desktopnav a {
+    text-decoration: none;
+    font-family: Bitter;
+    font-weight: 100;
+    color: white;
+  }
+  .desktopnav a:hover {
+    text-decoration: underline;
+  }
+  .nav p {
+    color: #141414;
+  }
+  .desktopnav li {
+    list-style: none;
+    padding-left: 25px;
+    font-size: 14px;
+  }
+  .reserve {
+    margin-top: 14px;
+    margin-left: 20px;
+  }
+  .reserve a {
+    padding: 5px 12px;
+    background-color: white;
+    color: #141414;
+    font-size: 14px;
+    font-family: Raleway;
+    font-weight: 500;
+  }
+  .reserve a:hover {
+    background-color: #141414;
+    color: white;
+  }
+  /*Body*/
+  .sec1 {
+    background-image: url(../images/Home1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+  }
+  .sec1 h1 {
+    font-family: Bitter;
+    font-size: 82px;
+    font-weight: 300;
+  }
+  .sec1 h2 {
+    font-size: 42px;
+  }
+  .sec2 {
+    background-image: url(../images/home2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    text-align: left;
+  }
+  .sec2 h2 {
+    margin-top: 0;
+    font-family: Bitter;
+    font-size: 2.813rem;
+    font-weight: 300;
+    color: white;
+    text-align: left;
+    text-transform: capitalize;
+    margin-left: 5rem;
+    margin-bottom: 0;
+  }
+  .sec2 h3 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-align: left;
+    margin-left: 5rem;
+    margin-top: 0.313rem;
+  }
+  .sec2 a {
+    padding: 0.625rem 0.75rem;
+    margin-left: 5rem;
+  }
+  .sec3 {
+    background-image: url(../images/home3.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+  }
+  .container3 {
+    padding-top: 6.25rem;
+    margin-right: 5rem;
+    padding-bottom: 0.625rem;
+  }
+  .sec3 h2 {
+    font-size: 4.063rem;
+    text-align: right;
+  }
+  .sec3 h3 {
+    text-align: right;
+    margin-top: 0.313rem;
+    margin-bottom: 0.625rem;
+  }
+  .sec3 a {
+    margin-left: 48.75rem;
+  }
+  /*Footer*/
+  .ig {
+    display: none;
+  }
+  .address {
+    display: none;
+  }
+  footer {
+    display: contents;
+  }
+  .footer {
+    justify-content: space-between;
+    width: 79%;
+    margin: 1.563rem auto;
+  }
+  .left p {
+    font-family: Bitter;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 0.313rem;
+    font-size: 0.875rem;
+  }
+  .email {
+    background-color: white;
+    padding: 0.313rem;
+    width: 15.625rem;
+    margin-right: 0.625rem;
+  }
+  .form a {
+    text-decoration: none;
+    font-family: Raleway;
+    color: white;
+    border: 0.063rem white solid;
+    padding: 0.313rem 0.5rem;
+    font-size: 0.625rem;
+  }
+  .form a:hover {
+    background-color: white;
+    color: #141414;
+  }
+  .footernav a {
+    font-family: Bitter;
+    color: white;
+    font-size: 0.75rem;
+    text-decoration: none;
+  }
+  .footernav a:hover {
+    text-decoration: underline;
+  }
+  .footernav li {
+    list-style: none;
+    padding-left: 0.625rem;
+  }
+  .footernav, .contact {
+    justify-content: flex-end;
+  }
+  .contact p {
+    font-family: Raleway;
+    color: white;
+    font-size: 0.625rem;
+  }
+  .phone img {
+    width: 1.188rem;
+    height: 1.188rem;
+    margin-right: 0.313rem;
+    margin-top: 0.313rem;
+  }
+  .location img {
+    width: 1.188rem;
+    height: 1.188rem;
+    margin-right: 0.313rem;
+    margin-top: 0.313rem;
+  }
+  .location {
+    padding-left: 0.625rem;
+  }
+}
+@media (min-width: 1200px) {
+  .desktopnav {
+    justify-content: space-between;
+    width: 85%;
+    margin: 1.563rem auto;
+    max-width: 1200;
+  }
+  /*Body*/
+  .sec1 h1 {
+    text-align: right;
+    margin-right: 5rem;
+  }
+  .sec1 h2 {
+    font-size: 2.625rem;
+    text-align: right;
+    margin-right: 5rem;
+  }
+  .sec1 a {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 0.813rem;
+    color: white;
+    padding: 0.625rem 0.938rem;
+    border: 0.063rem white solid;
+    text-transform: capitalize;
+    margin-left: 2.5rem;
+    margin-left: 63.625rem;
+  }
+  .sec2 {
+    height: 56.25rem;
+  }
+  .sec2 h2 {
+    font-size: 4.063rem;
+  }
+  .sec2 h3 {
+    font-size: 3.125rem;
+    font-weight: 100;
+    text-align: left;
+    margin-left: 5rem;
+    margin-top: 0.313rem;
+  }
+  .sec2 h4 {
+    font-size: 1.25rem;
+    margin-top: 28.125rem;
+  }
+  .sec2 a {
+    padding: 0.625rem 0.938rem;
+    margin-left: 5rem;
+    font-size: 0.875rem;
+  }
+  .sec3 a {
+    margin-left: 63.438rem;
+    padding: 0.625rem 0.938rem;
+    font-size: 0.875rem;
+  }
+}
+@media (min-width: 1920px) {
+  .sec1 {
+    height: 1194px;
+  }
+  .sec1 h1 {
+    text-align: right;
+    margin-right: 7.5rem;
+    font-size: 6rem;
+  }
+  .sec1 h2 {
+    font-size: 4.688rem;
+    text-align: right;
+    margin-right: 8.125rem;
+  }
+  .sec1 a {
+    font-size: 0.813rem;
+    padding: 0.625rem 0.938rem;
+    margin-left: 105.625rem;
+  }
+  .sec2 {
+    height: 78.125rem;
+  }
+  .sec2 h2 {
+    font-size: 5.313rem;
+    margin-top: 6.25rem;
+  }
+  .sec2 h3 {
+    font-size: 4.375rem;
+    font-weight: 100;
+    text-align: left;
+    margin-left: 5rem;
+    margin-top: 0.313rem;
+    margin-bottom: 1.25rem;
+  }
+  .sec2 h4 {
+    font-size: 2.5rem;
+    margin-top: 36.875rem;
+  }
+  .sec3 {
+    height: 72.813rem;
+  }
+  .sec3 h2 {
+    font-size: 5.313rem;
+    text-align: right;
+  }
+  .sec3 h3 {
+    font-size: 3.438rem;
+  }
+  .sec3 a {
+    margin-left: 105.625rem;
+    padding: 0.625rem 0.313rem;
+    font-size: 0.875rem;
+  }
+  .container3 {
+    padding-top: 12.5rem;
+    margin-right: 7.5rem;
+  }
+}/*# sourceMappingURL=stylesheet.css.map */

@@ -1,0 +1,484 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400&display=swap");
+body {
+  background-color: #292929;
+}
+
+body {
+  background-color: #292929;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+/*Mobile Nav*/
+.desktop, footer, .desktopnav {
+  display: none;
+}
+
+nav {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+nav img {
+  margin-top: 10px;
+}
+
+nav h3 a {
+  font-family: Bitter;
+  color: white;
+  font-size: 1rem;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 13px;
+  color: black;
+  padding: 0.313rem 0.5rem;
+  background-color: white;
+  font-weight: 700;
+}
+
+.buttons a:hover {
+  background-color: black;
+  color: white;
+}
+
+/*body*/
+.sec1 {
+  background-image: url(../images/chef1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 27.5rem;
+}
+
+.container1 {
+  text-align: center;
+  padding-top: 1.875rem;
+}
+
+.sec1 h1 {
+  font-family: Bitter;
+  color: white;
+  font-weight: 300;
+}
+.sec1 h2 {
+  font-family: Raleway;
+  color: white;
+  margin-top: 12.5rem;
+}
+.sec1 a {
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 0.813rem;
+  color: white;
+  padding: 0.313rem 0.5rem;
+  border: 0.063rem white solid;
+  text-transform: capitalize;
+}
+
+.sec1 a:hover {
+  background-color: white;
+  color: #292929;
+}
+
+.sec2 {
+  text-align: center;
+  font-family: Raleway;
+  color: white;
+}
+
+.sec3 {
+  background-image: url(../images/mobile2.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 17.25rem;
+  text-align: center;
+}
+
+.sec3 p {
+  font-family: Raleway;
+  color: white;
+  padding-top: 0.938rem;
+  padding-left: 1.563rem;
+  padding-right: 1.563rem;
+  font-weight: 300;
+}
+.sec3 a {
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 0.813rem;
+  color: white;
+  padding: 0.313rem 0.5rem;
+  border: 0.063rem white solid;
+  text-transform: capitalize;
+}
+
+.sec3 a:hover {
+  background-color: white;
+  color: black;
+}
+
+.sec4 {
+  background-image: url(../images/mobile3.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 401px;
+  text-align: center;
+}
+
+.sec4 p {
+  font-family: Raleway;
+  color: white;
+  margin-top: 0;
+  padding: 8.125rem 1.563rem;
+  font-weight: 300;
+}
+
+.sec5 {
+  font-family: Raleway;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  padding: 1.25rem 1.563rem;
+}
+
+.sec5 a {
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 0.813rem;
+  color: white;
+  padding: 0.313rem 0.5rem;
+  border: 0.063rem white solid;
+  text-transform: capitalize;
+}
+
+.sec5 a:hover {
+  background-color: white;
+  color: black;
+}
+
+.sec6 {
+  background-image: url(../images/mobile4.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 408px;
+  text-align: center;
+}
+
+.sec6 p {
+  font-family: Raleway;
+  color: white;
+  margin-top: 0;
+  padding: 16.875rem 1.563rem 0px 1.563rem;
+  font-weight: 300;
+}
+
+.social a {
+  font-family: Raleway;
+  color: white;
+  font-weight: 200;
+  text-align: center;
+}
+
+.social {
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .container1 {
+    text-align: right;
+    margin-right: 3.75rem;
+  }
+  .sec1 h2 {
+    margin-top: 0.625rem;
+  }
+  .sec3 {
+    height: 21.875rem;
+  }
+  .sec3 p {
+    padding-top: 5.938rem;
+    padding-left: 4.375rem;
+    padding-right: 4.375rem;
+  }
+  .sec4 p {
+    padding-top: 14.375rem;
+    padding-left: 4.375rem;
+    padding-right: 4.375rem;
+  }
+  .sec5 p {
+    padding: 1.25rem 2.5rem;
+    margin-top: 0;
+  }
+  .sec6 {
+    height: 30rem;
+  }
+  .sec6 p {
+    padding: 21.875rem 3.438rem 0px 3.438rem;
+  }
+}
+@media (min-width: 900px) {
+  .mobile, nav, .social {
+    display: none;
+  }
+  .desktop, .desktopnav, footer {
+    display: contents;
+  }
+  .desktopnav, ul, .nav, .footer, .form, .footernav, .contact, .phone, .location, .sec7 {
+    display: flex;
+  }
+  /*nav*/
+  .desktopnav {
+    justify-content: space-between;
+    width: 79%;
+    margin: 1.563rem auto;
+  }
+  .desktopnav a {
+    text-decoration: none;
+    font-family: Bitter;
+    color: white;
+    font-weight: 100;
+  }
+  .desktopnav a:hover {
+    text-decoration: underline;
+  }
+  .nav p {
+    color: #141414;
+  }
+  .desktopnav li {
+    list-style: none;
+    padding-left: 1.563rem;
+    font-size: 0.875rem;
+  }
+  .reserve {
+    margin-top: 0.875rem;
+    margin-left: 1.25rem;
+  }
+  .reserve a {
+    padding: 0.313rem 0.75rem;
+    background-color: white;
+    color: #141414;
+    font-size: 0.875rem;
+    font-family: Raleway;
+    font-weight: 500;
+  }
+  .reserve a:hover {
+    background-color: #141414;
+    color: white;
+  }
+  /*body*/
+  .sec7 {
+    background-image: url(../images/chef1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    justify-content: flex-end;
+  }
+  .container2 {
+    width: 25rem;
+    text-align: right;
+    margin-right: 5.625rem;
+    margin-top: 3.125rem;
+    color: white;
+  }
+  .container2 h1 {
+    font-family: Bitter;
+    font-size: 2.625rem;
+  }
+  .container2 h2 {
+    font-family: Raleway;
+    font-size: 2.188rem;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  .container2 h3 {
+    font-family: Bitter;
+    font-size: 1.563rem;
+    font-weight: 300;
+    margin-top: 0;
+  }
+  .container2 p {
+    font-family: Raleway;
+    font-weight: 100;
+    padding-left: 2.188rem;
+    line-height: 1.563rem;
+  }
+  .sec8 {
+    text-align: center;
+    font-family: Raleway;
+    color: white;
+    font-weight: 200;
+    padding: 0.938rem 3.438rem;
+    line-height: 1.563rem;
+  }
+  .sec9 {
+    background-image: url(../images/chef2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 22.125rem;
+  }
+  .container3 {
+    width: 12.5rem;
+    color: white;
+    margin-left: 4.375rem;
+    padding-top: 3.125rem;
+  }
+  .container3 p {
+    margin-top: 0;
+    font-family: Raleway;
+    font-weight: 100;
+    line-height: 1.563rem;
+  }
+  .container3 a {
+    font-family: Bitter;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  .container3 a:hover {
+    text-decoration: underline;
+  }
+  /*footer*/
+  .ig {
+    display: none;
+  }
+  .address {
+    display: none;
+  }
+  footer {
+    display: contents;
+  }
+  .footer {
+    justify-content: space-between;
+    width: 85%;
+    margin: 1.563rem auto;
+  }
+  .left p {
+    font-family: Bitter;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 0.313rem;
+    font-size: 0.875rem;
+  }
+  .email {
+    background-color: white;
+    padding: 0.313rem;
+    width: 15.625rem;
+    margin-right: 0.625rem;
+  }
+  .form a {
+    text-decoration: none;
+    font-family: Raleway;
+    color: white;
+    border: 0.063rem white solid;
+    padding: 0.313rem 0.5rem;
+    font-size: 0.625rem;
+  }
+  .form a:hover {
+    background-color: white;
+    color: black;
+  }
+  .footernav a {
+    font-family: Bitter;
+    color: white;
+    font-size: 0.75rem;
+    text-decoration: none;
+  }
+  .footernav a:hover {
+    text-decoration: underline;
+  }
+  .footernav li {
+    list-style: none;
+    padding-left: 0.625rem;
+  }
+  .footernav, .contact {
+    justify-content: flex-end;
+  }
+  .contact p {
+    font-family: Raleway;
+    color: white;
+    font-size: 0.625rem;
+  }
+  .phone img {
+    width: 1.188rem;
+    height: 1.188rem;
+    margin-right: 0.313rem;
+    margin-top: 0.313rem;
+  }
+  .location img {
+    width: 1.188rem;
+    height: 1.188rem;
+    margin-right: 0.313rem;
+    margin-top: 0.313rem;
+  }
+  .location {
+    padding-left: 0.625rem;
+  }
+}
+@media (min-width: 1700px) {
+  .desktopnav {
+    justify-content: space-between;
+    width: 85%;
+    margin: 1.563rem auto;
+  }
+  .sec7 {
+    height: 74rem;
+  }
+  .container2 {
+    margin-right: 7.5rem;
+    width: 37.5rem;
+  }
+  .container2 h1 {
+    font-size: 3.875rem;
+  }
+  .container2 h2 {
+    font-size: 3.438rem;
+  }
+  .container2 h3 {
+    font-size: 1.875rem;
+  }
+  .container2 p {
+    font-family: Raleway;
+    font-weight: 100;
+    padding-left: 2.188rem;
+    line-height: 1.563rem;
+  }
+  .sec8 {
+    width: 75rem;
+    padding: 3.438rem 6.25rem;
+    margin: auto;
+  }
+  .sec9 {
+    height: 47.125rem;
+  }
+  .container3 {
+    width: 25rem;
+    margin-left: 12.5rem;
+    padding-top: 15.625rem;
+  }
+  .container3 p {
+    line-height: 2.188rem;
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=stylesheet.css.map */
