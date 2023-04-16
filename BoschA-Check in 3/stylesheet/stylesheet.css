@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 100%;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+/*Mobile 390px*/
+
+.hero{
+	background-image: url("../images/mobile hero.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40.688rem;
+	text-align: center;
+	margin-top: 0;
+	
+}
+.hero h1{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 24.375rem;
+	font-family: Montserrat Alternates;
+	color: #0D1F20;
+	font-size: 5rem;
+	}
+.gradient{
+	background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));
+}
+.hero h3{
+	font-family: Halant;
+	color: #0D1F20;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-top: 0;
+	font-size: 1.875rem;
+}
+.hero p{
+	font-family: Halant;
+	margin-top: 5rem;
+	color: #0D1F20;
+	padding-bottom: 3.125rem;
+	font-size: 1.25rem;
+}
+.enlightnment, .benefits, .requirements{
+	background-color: #0D1F20;
+	color: white;
+	text-align: center;
+	padding-bottom: 4rem;
+}
+.enlightnment h2{
+	font-family: Montserrat Alternates;
+	text-transform: capitalize;
+	padding-top: 5.375rem;
+	margin-top: 0;
+}
+.enlightnment p{
+	font-family: Halant;
+	padding: 1.25rem 11.25rem;
+	text-align: justify;
+}
+.line2{
+	margin-bottom: 0;
+	padding-bottom: 1rem;
+}
+.line2 p{
+	margin-bottom: 0;
+	padding-bottom: 1rem;
+	
+}
+.selectdesign, .about{
+	background-color: #D9D9D9;
+	text-align: center;
+	padding-bottom: 8rem;
+}
+.selectdesign h2{
+	margin-top: 0;
+	padding-top: 5rem;
+	font-family: Montserrat Alternates;
+	font-weight: 600;
+	color: #0D1F20;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+.selectdesign h3{
+	font-family: Halant;
+	font-weight: 400;
+	color: #0D1F20;
+	text-transform: uppercase;
+	font-size: 1.25rem;
+}
+.selectdesign p{
+	font-family: Halant;
+	font-weight: 300;
+	font-size: 1rem;
+	color: #0D1F20;
+}
+.artist a{
+	font-family: Halant;
+	font-weight: 300;
+	color: #0D1F20;
+	text-transform: capitalize;
+}
+.artist p{
+	margin-top: 0;
+}
+.artist h3{
+	margin-bottom: 0;
+	padding-top: 3rem;
+}
+.next a{
+	text-decoration: none;
+	font-family: Montserrat Alternates;
+	font-weight: 600;
+	color: #D9D9D9;
+	padding: 1rem 2rem;
+	background-color: #0D1F20;
+	}
+.next a:hover{
+	background: #FFFFFF;
+	color: #0D1F20;
+}
+.next{
+	margin-top: 8rem;
+	margin-left: 25rem;
+}
+.benefits h2{
+	font-family: Montserrat Alternates;
+	text-transform: capitalize;
+	padding-top: 5.375rem;
+	margin-top: 0;
+	}
+.benefits p{
+	font-family: Halant;
+	padding: 1.25rem 11.25rem;
+	text-align: justify;
+}
+.about h2{
+	margin-top: 0;
+	padding-top: 5rem;
+	font-family: Montserrat Alternates;
+	font-weight: 600;
+	color: #0D1F20;
+	text-transform: capitalize;
+}
+.about p{
+	font-family: Halant;
+	padding: 1.25rem 11.25rem;
+	text-align: justify;
+	color: #0D1F20;
+}
+.requirements h2{
+	font-family: Montserrat Alternates;
+	text-transform: capitalize;
+	padding-top: 5.375rem;
+	margin-top: 0;
+}
+.requirements p{
+	font-family: Halant;
+	padding: 1.25rem 11.25rem;
+	text-align: justify;
+}
+.participate{
+	background-image: url("../images/mobileimage.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	width: 100%;
+	height: 93.688rem;
+	}
+#white{
+	background-color: white;
+	opacity: .5;
+}
+.participate h2{
+	font-family: Montserrat Alternates;
+	text-transform: capitalize;
+	padding-top: 5.375rem;
+	margin-top: 0;
+	font-size: 2.7rem;
+}
+.participate p{
+	font-family: Halant;
+	padding: 1.25rem 11.25rem;
+	text-align: justify;
+	font-size: 2.2rem;
+}
+.footer{
+	background-color: #0D1F20;
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	}
+.footer a{
+	display: block;
+	color: white;
+	padding-bottom: 2rem;
+	font-family: Montserrat Alternates;
+	font-weight: 100;
+	font-size: 2rem;
+	margin-top: 0;
+	text-decoration: none;
+	text-transform: capitalize;
+	}
+.footer a:hover{
+	text-decoration: underline;
+}
+
+
+@media (min-width: 576px) /* for mobile */{
+	
+}
+
+
+
+
+@media (min-width:768px) /* for tablets */{
+	
+}
+
+
+@media (min-width: 992px) /* for laptops */{
+	
+	
+}
+
+@media (min-width: 1200px) /* for large devices */{
+	
+	
+}
