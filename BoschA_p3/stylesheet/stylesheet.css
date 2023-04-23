@@ -1,0 +1,374 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 100%;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+/*Mobile 390px*/
+.container{
+	display: none;
+}
+
+.hero{
+	background-image: url("../images/mobile hero.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40.688rem;
+	text-align: center;
+	margin-top: 0;
+	
+}
+.hero h1{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 24.375rem;
+	font-family: Montserrat Alternates;
+	color: #0D1F20;
+	font-size: 5rem;
+	}
+.gradient{
+	background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));
+}
+.hero h3{
+	font-family: Halant;
+	color: #0D1F20;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-top: 0;
+	font-size: 1.875rem;
+}
+.hero p{
+	font-family: Halant;
+	margin-top: 5rem;
+	color: #0D1F20;
+	padding-bottom: 3.125rem;
+	font-size: 1.25rem;
+}
+.enlightnment, .benefits, .requirements{
+	background-color: #0D1F20;
+	color: white;
+	text-align: center;
+	padding-bottom: 4rem;
+}
+.enlightnment h2{
+	font-family: Montserrat Alternates;
+	text-transform: capitalize;
+	padding-top: 5.375rem;
+	margin-top: 0;
+}
+.enlightnment p{
+	font-family: Halant;
+	padding: 1.25rem 11.25rem;
+	text-align: justify;
+}
+.line2{
+	margin-bottom: 0;
+	padding-bottom: 1rem;
+}
+.line2 p{
+	margin-bottom: 0;
+	padding-bottom: 1rem;
+	
+}
+.selectdesign, .about{
+	background-color: #D9D9D9;
+	text-align: center;
+	padding-bottom: 8rem;
+}
+.selectdesign h2{
+	margin-top: 0;
+	padding-top: 5rem;
+	font-family: Montserrat Alternates;
+	font-weight: 600;
+	color: #0D1F20;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+.selectdesign h3{
+	font-family: Halant;
+	font-weight: 400;
+	color: #0D1F20;
+	text-transform: uppercase;
+	font-size: 1.4rem;
+}
+.selectdesign p{
+	font-family: Halant;
+	font-weight: 300;
+	font-size: 1rem;
+	color: #0D1F20;
+}
+.artist a{
+	font-family: Halant;
+	font-weight: 300;
+	color: #0D1F20;
+	text-transform: capitalize;
+}
+.artist p{
+	margin-top: 0;
+}
+.artist h3{
+	margin-bottom: 0;
+	padding-top: 3rem;
+}
+.next a{
+	text-decoration: none;
+	font-family: Montserrat Alternates;
+	font-weight: 600;
+	color: #D9D9D9;
+	padding: 5rem 4rem;
+	background-color: #0D1F20;
+	font-size: .5rem;
+	}
+.next a:hover{
+	background: #FFFFFF;
+	color: #0D1F20;
+}
+.next{
+	margin-top: 8rem;
+	margin-left: 25rem;
+}
+.benefits h2{
+	font-family: Montserrat Alternates;
+	text-transform: capitalize;
+	padding-top: 5.375rem;
+	margin-top: 0;
+	}
+.benefits p{
+	font-family: Halant;
+	padding: 1.25rem 11.25rem;
+	text-align: justify;
+}
+.about h2{
+	margin-top: 0;
+	padding-top: 5rem;
+	font-family: Montserrat Alternates;
+	font-weight: 600;
+	color: #0D1F20;
+	text-transform: capitalize;
+}
+.about p{
+	font-family: Halant;
+	padding: 1.25rem 11.25rem;
+	text-align: justify;
+	color: #0D1F20;
+}
+.requirements h2{
+	font-family: Montserrat Alternates;
+	text-transform: capitalize;
+	padding-top: 5.375rem;
+	margin-top: 0;
+}
+.requirements p{
+	font-family: Halant;
+	padding: 1.25rem 11.25rem;
+	text-align: justify;
+}
+.participate{
+	background-image: url("../images/mobileimage.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	width: 100%;
+	height: 93.688rem;
+	}
+#white{
+	background-color: white;
+	background-size: cover;
+	opacity: .5;
+}
+.participate h2{
+	font-family: Montserrat Alternates;
+	text-transform: capitalize;
+	padding-top: 5.375rem;
+	margin-top: 0;
+	font-size: 2.7rem;
+}
+.participate p{
+	font-family: Halant;
+	padding: 1.25rem 11.25rem;
+	text-align: justify;
+	font-size: 5.2rem;
+}
+.footer{
+	background-color: #0D1F20;
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	}
+.footer a{
+	display: block;
+	color: white;
+	padding-bottom: 2rem;
+	font-family: Montserrat Alternates;
+	font-weight: 100;
+	font-size: 2rem;
+	margin-top: 0;
+	text-decoration: none;
+	text-transform: capitalize;
+	}
+.footer a:hover{
+	text-decoration: underline;
+}
+
+
+
+@media (min-width:768px) /* for tablets */{
+	.footer, .designcolumns{
+		display: flex;
+		justify-content: center;
+		}
+	.footer a{
+		font-size: 1rem;
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+	}
+	.participate p{
+		font-size: 1rem;
+		line-height: 2rem;
+	}
+	.participate{
+		background-image: url("../images/mobileimage.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 50rem;
+	}
+	.participate h2{
+		padding-top: 18rem;
+	}
+	.gradient{
+		height: 60rem;
+	}
+	.designleft, .designright{
+		padding-left: 3.5rem;
+		padding-right: 3.5rem;
+	}
+	.next a{
+	padding: 1rem 3rem;
+	
+	}
+	
+}
+
+@media (min-width: 992px) /* for laptops */{
+	.hero{
+		background-image: url("../images/hero.png");
+		background-repeat: no-repeat;
+	    background-size: cover;
+		height: 22rem;
+	}
+	.hero h1{
+		font-size: 3rem;
+		padding-top: 12rem;
+	}
+	.hero h3{
+		font-size: 1.3rem;
+	}
+	.hero p{
+		font-size: .8rem;
+		margin-top: 2.5rem;}
+	.enlightnment, .selectdesign, .benefits{
+		display: none;
+	}
+	.container{
+		display: contents;
+	}
+	.container{
+		display: flex;
+		background-color: #0D1F20;
+		color: #D9D9D9;
+		padding-top: 4rem;
+	}
+	.left{
+		padding-left: 7rem;
+		padding-right: 5rem;
+		width: 45rem;
+		}
+	.enlightnment2 h2, .benefits2 h2{
+		text-transform: capitalize;
+		font-family: Montserrat Alternates;
+		margin-bottom: 2.5rem;
+	}
+	.enlightnment2 p, .benefits2 p{
+		font-size: Halant;
+		font-weight: 300;
+		line-height: 1.5rem;
+		text-align: justify;
+	}
+	.right h2{
+		text-decoration: underline;
+		text-transform: capitalize;
+	}
+	.artist h3{
+		padding-top: .9rem;
+		font-size: 1rem;
+		text-transform: capitalize;
+		
+	}
+	.artist a{
+		color: #D9D9D9;
+	}
+	.artist p{
+		font-size: .8rem;
+	}
+	.benefits2{
+		padding-top: 5rem;
+	}
+	.next{
+		margin-top: 1.8rem;
+		margin-left: 6em;
+		margin-bottom: 5rem;
+	}
+	.next a{
+		padding: .2rem 1rem;
+		background-color: #D9D9D9;
+		color: #0D1F20;
+		font-size: .8rem;
+		}
+	.next a:hover{
+		background-color: #0D1F20;
+		color: #D9D9D9;
+		
+	}
+	.participate{
+		background-image: url("../images/imagelaptop.png");
+		background-repeat: no-repeat;
+	    background-size: cover;
+		height: 33rem;
+	}
+	.participate h2{
+		font-size: 1.8rem;
+		color: #0D1F20;
+		padding-top: 5rem;
+	}
+	.participate p{
+		margin-bottom: 0;
+		padding-bottom: 9rem;
+	}
+	.gradient{
+		height: 33rem;
+	}
+	
+}
+
+@media (min-width: 1200px) /* for large devices */{
+	.right{
+		padding-left: 10rem;
+	}
+	.left{
+		padding-left: 10rem;
+	}
+	
+}
