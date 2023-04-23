@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/heromobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.close img {
+  width: 5%;
+  margin-top: 10rem;
+  margin-left: 50rem;
+}
+
+.business {
+  display: flex;
+  justify-content: baseline;
+}
+
+.container {
+  margin-left: 8rem;
+}
+.container h2 {
+  font-family: Abril Fatface;
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+.container h3 {
+  font-family: Libre Franklin;
+  color: white;
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+.container img {
+  width: 1rem;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  margin-bottom: 3rem;
+}
+.container p {
+  font-family: Libre Franklin;
+  font-weight: 200;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.7rem;
+}
+.container a {
+  text-decoration: none;
+  color: white;
+}
+.container a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=stylesheetmobilemenu.css.map */

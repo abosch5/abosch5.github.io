@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top, .forest2, footer {
+  display: none;
+}
+
+nav, .container, .cartoons {
+  display: flex;
+}
+
+nav {
+  justify-content: space-between;
+  width: 50rem;
+  margin: auto;
+  padding: 5rem 0;
+}
+
+.cont {
+  text-align: center;
+  background-image: url(../images/heromobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130.625rem;
+}
+
+.cont h2 {
+  font-family: Abril Fatface;
+  text-transform: capitalize;
+  color: white;
+  font-size: 2.813rem;
+  margin-top: 25rem;
+}
+
+.cont p {
+  font-family: Libre Franklin;
+  font-size: 1.875rem;
+  padding: 0 5.938rem;
+  font-weight: 200;
+  color: white;
+  line-height: 3.125rem;
+}
+
+.down {
+  padding-top: 62.5rem;
+}
+
+.text p {
+  text-align: justify;
+  font-family: Libre Franklin;
+  font-weight: 200;
+  width: 50rem;
+  margin: auto;
+  margin-top: 10rem;
+  line-height: 3.125rem;
+  font-size: 2rem;
+}
+
+.highlights {
+  padding-top: 8rem;
+}
+.highlights h2 {
+  text-align: center;
+  font-family: Abril Fatface;
+  color: #30638E;
+}
+
+.container {
+  width: 50rem;
+  margin: auto;
+}
+
+.icons {
+  text-align: center;
+  width: 80%;
+  margin: 8rem auto;
+}
+.icons h3 {
+  font-family: Libre Franklin;
+  font-weight: 800;
+  font-size: 2rem;
+}
+.icons p {
+  font-family: Libre Franklin;
+  font-weight: 200;
+  font-size: 1.3rem;
+}
+
+.right {
+  text-align: center;
+}
+
+.best {
+  background-color: #30638E;
+  text-align: center;
+}
+
+.numberone {
+  padding-top: 8rem;
+}
+.numberone img {
+  width: 80%;
+}
+
+.items {
+  padding-top: 8rem;
+}
+.items img {
+  width: 8%;
+}
+.items p {
+  font-family: Libre Franklin;
+  color: white;
+  font-weight: 200;
+  padding: 0 5rem;
+}
+
+#space {
+  padding-bottom: 30rem;
+}
+
+.thankyou {
+  margin-top: -22rem;
+  text-align: center;
+}
+.thankyou p {
+  font-family: Libre Franklin;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 5rem;
+}
+
+.cartoons {
+  justify-content: center;
+}
+
+.shareholders {
+  width: 50rem;
+  margin: auto;
+}
+.shareholders h3 {
+  font-family: Abril Fatface;
+  text-transform: capitalize;
+  font-size: 1.7rem;
+}
+.shareholders p {
+  text-align: justify;
+  font-family: Libre Franklin;
+  font-weight: 200;
+  padding-top: 3rem;
+}
+
+.forest img {
+  width: 100%;
+  margin: auto;
+  margin-top: -20rem;
+}
+
+.butterfly1 img {
+  position: relative;
+  top: 15rem;
+  left: 40rem;
+}
+
+.butterfly2 img {
+  position: relative;
+  top: 60rem;
+  left: 56rem;
+}
+
+.butterfly3 img {
+  position: relative;
+  top: 85rem;
+  left: -1rem;
+}
+
+@media (min-width: 1200px) {
+  .cont, .text, .forest {
+    display: none;
+  }
+  .container {
+    display: block;
+    margin-left: 6rem;
+  }
+  .top, .forest2, footer {
+    display: contents;
+  }
+  .top {
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+	  height: 200rem;
+  }
+  nav {
+    width: 85%;
+    margin: auto;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 5rem;
+  }
+  .sec {
+    display: flex;
+    padding-right: 5rem;
+  }
+  .sec img {
+    width: 5%;
+    margin-top: 10rem;
+    margin-left: 3rem;
+  }
+  .logo {
+    padding-right: 5rem;
+  }
+  nav a {
+    text-decoration: none;
+    font-family: Libre Franklin;
+    color: #30638E;
+    text-transform: capitalize;
+  }
+  nav a a:hover {
+    text-decoration: underline;
+  }
+  .top h1 {
+    font-family: Abril Fatface;
+    color: #30638E;
+    text-transform: capitalize;
+  }
+  .top p {
+    width: 80%;
+    margin: auto;
+    font-family: Libre Franklin;
+    line-height: 2rem;
+    text-align: justify;
+  }
+  .arrow img {
+    width: 3%;
+    margin: auto;
+    padding-top: 15rem;
+  }
+  .left, .right {
+    display: flex;
+    width: 65rem;
+    margin: auto;
+  }
+  .left .icons {
+    margin-bottom: 5rem;
+  }
+  .icons {
+    width: 15rem;
+  }
+  .best, .items {
+    display: flex;
+  }
+  .numberone {
+    width: 65rem;
+  }
+  .sec2 {
+    margin-top: 10rem;
+  }
+  .sec2 img {
+    width: 6rem;
+  }
+  .items {
+    padding-top: 2rem;
+  }
+  .items p {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    margin: 0;
+    text-align: left;
+  }
+  #space {
+    padding-bottom: 10rem;
+  }
+  .thankyou {
+    justify-content: left;
+    margin-top: -20rem;
+    margin-right: 30rem;
+  }
+  .forest2 img {
+    width: 100%;
+  }
+  .butterfly3 {
+    position: relative;
+    top: -60rem;
+    left: -1rem;
+  }
+  .butterfly2 img {
+    position: relative;
+    top: 20rem;
+    left: 68rem;
+  }
+  .butterfly1 img {
+    position: relative;
+    width: 3rem;
+    top: 12rem;
+  }
+  footer {
+    background-color: #30638E;
+  }
+  footer nav a {
+    font-size: 0.6rem;
+  }
+  footer .logo img {
+    width: 40%;
+  }
+  footer nav ul {
+    padding-left: 10rem;
+  }
+  footer nav {
+    padding-bottom: 0;
+  }
+}/*# sourceMappingURL=stylesheet.css.map */

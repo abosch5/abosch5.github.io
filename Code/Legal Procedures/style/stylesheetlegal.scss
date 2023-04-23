@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;700;800;900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+html{
+	font-size: 100%;
+}
+body{
+	margin:0;
+	padding:0;
+}
+.top, .illustration2, .text, .raccoon, .top3, .mountains2, footer{
+    display: none;
+}
+nav, .container, .cartoons{
+    display: flex;
+}
+nav{
+    justify-content: space-between;
+    width: 50rem;
+    margin: auto;
+    padding: 5rem 0;
+}
+.hero{
+    text-align: center;
+    background-image: url(../images/heromobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130.625rem;
+}
+.hero h2{
+    font-family: Abril Fatface;
+    text-transform: capitalize;
+    color: white;
+    font-size: 2.813rem;
+    margin-top: 25rem;
+}
+.hero p{
+    font-family: Libre Franklin;
+    font-size: 1.875rem;
+    padding: 0 5.938rem;
+    font-weight: 200;
+    color: white;
+    line-height: 3.125rem;
+    text-align: justify;
+}
+.down{
+    padding-top: 45rem;
+}
+.container1, .container5{
+    width: 50rem;
+    margin: auto;
+    margin-top: 8rem;
+    p{
+        font-family: Libre Franklin;
+        font-size: 1.875rem;
+        text-align: justify;
+        font-weight: 200;
+        line-height: 3.525rem;
+
+
+    }
+}
+.illustration img{
+    width: 100%;
+    margin-top: 8rem;
+}
+.container2, .container4{
+    background-color: #30638E;
+    p{
+        font-family: Libre Franklin;
+        font-size: 1.875rem;
+        text-align: justify;
+        font-weight: 200;
+        line-height: 3.525rem;
+        color: white;
+        width: 50rem;
+        margin: auto;
+        padding: 8rem 0;
+    }
+}
+.container3{
+    width: 50rem;
+    margin: auto;
+    margin-top: 8rem;
+    p{
+        font-family: Libre Franklin;
+        font-size: 1.875rem;
+        text-align: justify;
+        font-weight: 200;
+        line-height: 3.825rem;
+    }
+    img{
+        padding: 4rem 0;
+        width: 10rem;
+        margin-left: 40rem;
+    }
+}
+.rat img{
+    width: 10rem;
+    padding-top: 4rem;
+    margin-left: 6rem;
+}
+.container4{
+    margin-top: -2rem ;
+}
+.mountains img{
+    width: 100%;
+    margin: auto;
+    margin-top: -20rem;
+    
+}
+
+@media (min-width: 1200px) /* for large devices */{
+    .hero, .illustration, .container1, .container2, .container3 img, .container4, .container5, .mountains{
+        display: none;
+    }
+    .top, .illustration2, .text, .raccoon, .top3, .mountains2, footer{
+        display: contents;
+        }
+        nav{
+            width: 85%;
+            margin: auto;
+            ul{
+                display: flex;
+                list-style: none;
+                padding-left: 5rem;
+                }
+              }
+        .sec{
+            display: flex;
+            padding-right: 5rem;
+                 img{
+                width: 5%;
+                margin-top: 10rem;
+                margin-left: 3rem;
+                }
+              }
+        .logo{
+            padding-right: 5rem;
+        }      
+        nav a{
+            text-decoration: none;
+            font-family: Libre Franklin;
+            color: #30638E;
+            text-transform: capitalize;
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+        .top {
+            background-image: url(../images/hero.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            
+            h1{
+                font-family: Abril Fatface;
+                color: #30638E;
+                text-transform: capitalize;
+                text-align: center;
+            }
+            p{
+                width: 80%;
+                margin: auto;
+                font-family: Libre Franklin;
+                line-height: 2rem;
+                text-align: justify;
+            }
+    
+        }
+        .arrow img{
+            width: 3%;
+            margin: auto;
+            padding-top: 15rem;
+        }
+        .top2{
+            display: flex;
+            padding: 8rem 0;
+        }
+        .text p{
+            font-size: 1rem;
+            line-height: 2rem;
+            padding-left: 7rem;
+            text-align: justify;
+            padding-right: 7rem;
+            font-family: Libre Franklin;
+        }
+        .text{
+            width: 40%;
+        }
+        .illustration2 img{
+            width: 38%;
+            margin-right: 7rem;
+            margin-top: 10rem;
+        }
+        .container3{ 
+            background-color: #30638E;
+            width: 100%;
+             p{
+            width: 50rem;
+            margin: auto;    
+            font-size: 1rem;
+            line-height: 2rem;
+            color: white;
+           }
+        }
+        .text2{
+            padding-top: 5rem;
+            padding-bottom: 10rem;
+        }
+        .rat img{
+            margin-top: -25rem;
+        }
+        .raccoon img{
+            position: relative;
+            margin-left: 60rem;
+            top: -9rem;
+            width: 8rem;
+        }
+        .container4{
+            margin-top: 10rem;
+        }
+        .top3 {
+            margin-top: 8rem;
+            p{
+        font-family: Libre Franklin;
+        font-size: 1rem;
+        text-align: justify;
+        font-weight: 200;
+        line-height: 2rem;
+        padding: 0 12rem;
+        }
+        }
+        .mountains2 img{
+            width: 100%;
+            margin-top: -20rem;
+        }
+        footer{
+            background-color: #30638E;
+            }
+        footer nav a{
+            font-size: .6rem;
+        }
+        footer .logo img{
+            width: 40%;
+        
+        }
+        footer nav ul{
+            padding-left: 10rem;
+        }
+        footer nav{
+            padding-bottom: 0;
+        }
+
+    }
